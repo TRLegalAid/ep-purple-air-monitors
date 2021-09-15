@@ -28,7 +28,7 @@ new_names <- lapply(filePaths, rename)
 names(result) <- new_names
 
 
-# Function to clean up primary sensor dataframe
+# Function to clean up primary sensor df
 prep_primary <- function(df) {
   
   # clean up column names, select columns of interest, remove duplicates
